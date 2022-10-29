@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/colorAccent" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/actionbar_main"/>
+    <android.support.design.widget.BottomNavigationView android:id="@+id/Wiggetnav1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" app:menu="@menu/itemsbottom" style="@style/nav1"/>
+    <ImageView android:layout_width="50dp" android:layout_height="50dp" android:layout_marginTop="1dp" android:src="@mipmap/btnback" android:onClick="btnback6" android:layout_alignEnd="@+id/Wiggetnav1"/>
+    <TextView android:textSize="21dp" android:textColor="#ffffffff" android:id="@+id/text1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13dp" android:text="گالری تصاویر"/>
+    <ScrollView android:layout_width="match_parent" android:layout_height="396dp" android:layout_marginTop="56dp">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ImageView android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@mipmap/a1"/>
+            <ImageView android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@mipmap/a2"/>
+            <ImageView android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@mipmap/a3"/>
+            <ImageView android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@mipmap/a4"/>
+            <ImageView android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@mipmap/a5"/>
+            <ImageView android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@mipmap/a6"/>
+            <ImageView android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@mipmap/a7"/>
+            <ImageView android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@mipmap/a8"/>
+            <ImageView android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@mipmap/a9"/>
+            <ImageView android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@mipmap/a10"/>
+            <ImageView android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@mipmap/a11"/>
+            <ImageView android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@mipmap/a12"/>
+            <ImageView android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@mipmap/a13"/>
+            <ImageView android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@mipmap/a14"/>
+            <ImageView android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@mipmap/a15"/>
+            <ImageView android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@mipmap/a16"/>
+            <ImageView android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@mipmap/a17"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

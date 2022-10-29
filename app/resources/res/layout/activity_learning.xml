@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="#ffdff2e2" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/actionbar_main"/>
+    <android.support.design.widget.BottomNavigationView android:id="@+id/Wiggetnav1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" app:menu="@menu/itemsbottom" style="@style/nav1"/>
+    <ImageView android:layout_width="50dp" android:layout_height="50dp" android:layout_marginTop="1dp" android:src="@mipmap/btnback" android:onClick="btnback4" android:layout_alignEnd="@+id/Wiggetnav1"/>
+    <TextView android:textSize="21dp" android:textColor="#ffffffff" android:id="@+id/text1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13dp" android:text="یادگیری"/>
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="132dp" android:src="@mipmap/lerantablo" android:layout_centerHorizontal="true" android:onClick="btn_tabloo"/>
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="298dp" android:src="@mipmap/lerantotal" android:layout_centerHorizontal="true" android:onClick="btn_click_motale"/>
+</RelativeLayout>

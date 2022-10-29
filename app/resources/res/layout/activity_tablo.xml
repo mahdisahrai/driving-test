@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="#ffdff2e2" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/actionbar_main"/>
+    <android.support.design.widget.BottomNavigationView android:id="@+id/Wiggetnav1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" app:menu="@menu/itemsbottom" style="@style/nav1"/>
+    <ImageView android:layout_width="50dp" android:layout_height="50dp" android:layout_marginTop="1dp" android:src="@mipmap/btnback" android:onClick="btnback5" android:layout_alignEnd="@+id/Wiggetnav1"/>
+    <TextView android:textSize="21dp" android:textColor="#ffffffff" android:id="@+id/text1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13dp" android:text="مطالعه تابلو ها"/>
+    <ScrollView android:layout_width="match_parent" android:layout_height="396dp" android:layout_marginTop="56dp">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <Button android:textSize="18dp" android:textColor="#ff8bee7a" android:layout_width="200dp" android:layout_height="50dp" android:layout_marginTop="8dp" android:text=" تابلو های اخطاری" android:onClick="btn_Ektari" android:translationX="-60dp"/>
+            <Button android:textSize="18dp" android:textColor="#ff77dbc5" android:layout_width="200dp" android:layout_height="50dp" android:layout_marginTop="1dp" android:text=" تابلو های انتظامی" android:onClick="btn_entezami" android:translationX="-60dp"/>
+            <Button android:textSize="18dp" android:textColor="#fff2f683" android:layout_width="200dp" android:layout_height="50dp" android:layout_marginTop="2dp" android:text=" تابلو های اخباری" android:onClick="btn_news" android:translationX="-60dp"/>
+            <Button android:textSize="18dp" android:textColor="#ffffc3fa" android:layout_width="200dp" android:layout_height="60dp" android:layout_marginTop="1dp" android:text=" تابلو های راهنما مسیر" android:onClick="btn_hepermasir" android:translationX="-60dp"/>
+            <Button android:textSize="18dp" android:textColor="#fff59494" android:layout_width="200dp" android:layout_height="50dp" android:layout_marginTop="1dp" android:text=" تابلو های مکمل" android:onClick="btn_mokamle" android:translationX="-60dp"/>
+            <Button android:textSize="18dp" android:textColor="#fff7ef0d" android:layout_width="200dp" android:layout_height="50dp" android:layout_marginTop="1dp" android:text=" تابلو های محلی" android:onClick="btn_Local" android:translationX="-60dp"/>
+            <Button android:textSize="18dp" android:textColor="@color/colorAccent" android:layout_width="200dp" android:layout_height="50dp" android:layout_marginTop="1dp" android:text=" تابلو های برچسب ها" android:onClick="btn_tagss" android:translationX="-60dp"/>
+            <Button android:textSize="18dp" android:textColor="#fff2f683" android:layout_width="200dp" android:layout_height="50dp" android:layout_marginTop="1dp" android:text="همه تابلو ها" android:onClick="btn_ttottab" android:translationX="-60dp"/>
+            <Button android:textSize="18dp" android:textColor="#ff8bee7a" android:layout_width="200dp" android:layout_height="50dp" android:layout_marginTop="1dp" android:text="نمونه سوال" android:onClick="btn_Nemonehqusettion" android:translationX="-60dp"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

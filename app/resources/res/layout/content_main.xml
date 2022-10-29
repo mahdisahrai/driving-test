@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="#ffdff2e2" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+    <include layout="@layout/activity_bottomnav"/>
+    <ImageView android:id="@+id/imageView" android:layout_width="150dp" android:layout_height="150dp" android:layout_marginLeft="89dp" android:layout_marginTop="59dp" android:src="@mipmap/pichome2" android:layout_alignParentLeft="true" android:onClick="btnazmoon"/>
+    <ImageView android:layout_width="135dp" android:layout_height="150dp" android:layout_marginTop="255dp" android:src="@mipmap/pichome1" android:layout_centerHorizontal="true" android:onClick="btnlearn"/>
+</RelativeLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="2" android:versionName="1.1" package="com.example.mahdi.project2" platformBuildVersionCode="25" platformBuildVersionName="7.1.1">
+    <uses-sdk android:minSdkVersion="17" android:targetSdkVersion="25"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <meta-data android:name="android.support.VERSION" android:value="25.3.1"/>
+    <application android:theme="@style/Theme.AppCompat.NoActionBar" android:label="@string/app_name" android:icon="@mipmap/ic_launcher" android:allowBackup="true" android:supportsRtl="true" android:roundIcon="@mipmap/ic_launcher">
+        <activity android:theme="@style/AppTheme.NoActionBar" android:name="com.example.mahdi.project2.MainActivity"/>
+        <activity android:name="com.example.mahdi.project2.activity_Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.mahdi.project2.Activity_dareh_ma"/>
+        <activity android:name="com.example.mahdi.project2.tamasbama_Activity"/>
+        <activity android:name="com.example.mahdi.project2.activity_Azmoons"/>
+        <activity android:name="com.example.mahdi.project2.activity_learning"/>
+        <activity android:name="com.example.mahdi.project2.activity_tablo"/>
+        <activity android:name="com.example.mahdi.project2.Activity_Loading1"/>
+        <activity android:name="com.example.mahdi.project2.activity__loading2"/>
+        <activity android:name="com.example.mahdi.project2.activity_loading3"/>
+        <activity android:name="com.example.mahdi.project2.activity_loading4"/>
+        <activity android:name="com.example.mahdi.project2.activity_loading5"/>
+        <activity android:name="com.example.mahdi.project2.activity_loading6"/>
+        <activity android:name="com.example.mahdi.project2.activity_loading7"/>
+        <activity android:name="com.example.mahdi.project2.activity_Gallery_Tablo"/>
+        <activity android:name="com.example.mahdi.project2.Activity_azmon1"/>
+        <activity android:name="com.example.mahdi.project2.Activity_Resualt_1"/>
+        <activity android:name="com.example.mahdi.project2.activity_azmon2"/>
+        <activity android:name="com.example.mahdi.project2.activity_resualt_2"/>
+        <activity android:name="com.example.mahdi.project2.activity_azmon3"/>
+        <activity android:name="com.example.mahdi.project2.Activity_Resualt_3"/>
+        <activity android:name="com.example.mahdi.project2.Main_activity_tabloo"/>
+    </application>
+</manifest>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <group android:checkableBehavior="single">
+        <item android:icon="@mipmap/question1" android:id="@+id/azzmon" android:title="آزمون آیین نامه"/>
+        <item android:icon="@android:drawable/ic_menu_edit" android:id="@+id/learnnn" android:title="آموزش آیین نامه"/>
+        <item android:icon="@mipmap/share" android:id="@+id/nav_sentfiirend" android:title="ارسال به دوستان"/>
+        <item android:icon="@android:drawable/stat_sys_phone_call_forward" android:id="@+id/tamasbam" android:title="تماس با ما"/>
+        <item android:icon="@mipmap/darbare" android:id="@+id/darbarehma" android:title="درباره ما"/>
+        <item android:icon="@mipmap/exiit" android:id="@+id/Exit" android:title="خروج"/>
+    </group>
+</menu>

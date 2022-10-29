@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="#ffdff2e2" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:layout_width="158dp" android:layout_height="158dp" android:layout_marginTop="65dp" android:src="@mipmap/tasvirdarbarehma" android:layout_centerHorizontal="true"/>
+    <include layout="@layout/actionbar_main"/>
+    <android.support.design.widget.BottomNavigationView android:id="@+id/Wiggetnav1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" app:menu="@menu/itemsbottom" style="@style/nav1"/>
+    <ImageView android:layout_width="50dp" android:layout_height="50dp" android:layout_marginTop="1dp" android:src="@mipmap/btnback" android:onClick="btnback1" android:layout_alignEnd="@+id/Wiggetnav1"/>
+    <TextView android:textSize="21dp" android:textColor="#ffffffff" android:id="@+id/text1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13dp" android:text="درباره ما"/>
+    <ScrollView android:layout_width="match_parent" android:layout_height="230dp" android:layout_marginTop="222dp">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="224dp">
+            <TextView android:textSize="23dp" android:textStyle="normal" android:textColor="#ff000000" android:id="@+id/txt_darbareh" android:layout_width="match_parent" android:layout_height="250dp" android:layout_marginTop="1dp" android:text="اپلیکیشن (آزمون آیین نامه) که اکنون در اختیار دارید نرم افزاری برای عموم مردم می باشد. این اپلیکیشن به شما عزیزان کمک خواهد کرد تا بتوانید آمادگی کافی را در آزمون کسب کنید و بتوانید در همان بار اول تست های کافی را جهت قبولی بزنید. ما در این برنامه جزوه هایی را جهت مطالعه و آزمون های کافی را بنا به همین دلیل قرار داده ایم. لطفا نظر خود را از طریق راه های ارتباطی جهت بهبود و توسعه اپلیکیشن بیان کنید. با سپاس  "/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="#ffdff2e2" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/actionbar_main"/>
+    <android.support.design.widget.BottomNavigationView android:id="@+id/Wiggetnav1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" app:menu="@menu/itemsbottom" style="@style/nav1"/>
+    <ImageView android:layout_width="50dp" android:layout_height="50dp" android:layout_marginTop="1dp" android:src="@mipmap/btnback" android:onClick="btnback3" android:layout_alignEnd="@+id/Wiggetnav1"/>
+    <TextView android:textSize="21dp" android:textColor="#ffffffff" android:id="@+id/text1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13dp" android:text="آزمون ها"/>
+    <ScrollView android:layout_width="match_parent" android:layout_height="396dp" android:layout_marginTop="56dp">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <Button android:textSize="21dp" android:textStyle="bold" android:textColor="@color/CBOT" android:id="@+id/btnazmon1" android:background="@mipmap/btnnazmon" android:layout_width="215dp" android:layout_height="100dp" android:layout_marginTop="19dp" android:text="آزمون اول" android:onClick="btnazmon1" android:translationX="-58dp"/>
+            <Button android:textSize="21dp" android:textStyle="bold" android:textColor="@color/CBOT" android:id="@+id/btnazmon2" android:background="@mipmap/btnnazmon" android:layout_width="215dp" android:layout_height="100dp" android:layout_marginTop="19dp" android:text="آزمون دوم" android:onClick="btnazmon2" android:translationX="-58dp"/>
+            <Button android:textSize="21dp" android:textStyle="bold" android:textColor="@color/CBOT" android:id="@+id/btnazmon3" android:background="@mipmap/btnnazmon" android:layout_width="215dp" android:layout_height="100dp" android:layout_marginTop="19dp" android:text="آزمون سوم" android:onClick="btnazmon3" android:translationX="-58dp"/>
+            <Button android:textSize="20dp" android:textStyle="bold" android:textColor="@color/CBOT" android:id="@+id/btnazmon4" android:background="@mipmap/btnnazmon" android:layout_width="215dp" android:layout_height="100dp" android:layout_marginTop="19dp" android:text="آزمون بیشتر" android:onClick="btnazmon4" android:translationX="-58dp"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

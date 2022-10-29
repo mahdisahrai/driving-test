@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@mipmap/bodyres1" android:layout_width="match_parent" android:layout_height="match_parent">
+    <Button android:textSize="18dp" android:textColor="@color/colorAccent" android:layout_width="235dp" android:layout_height="85dp" android:layout_marginTop="1dp" android:text="نمونه سوال و جواب آزمون اول" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:onClick="btn_Nemonehqusettion1"/>
+    <Button android:textSize="18dp" android:textColor="@color/colorAccent" android:layout_width="235dp" android:layout_height="85dp" android:layout_marginTop="335dp" android:text="خروج از آزمون اول" android:layout_centerHorizontal="true" android:onClick="btn_exe1"/>
+</RelativeLayout>

@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="#ffdff2e2" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/include2" layout="@layout/actionbar_main1"/>
+    <android.support.design.widget.BottomNavigationView android:id="@+id/Wiggetnav1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" app:menu="@menu/itemsbottom" style="@style/nav1"/>
+    <TextView android:textSize="21dp" android:textColor="#ffffffff" android:id="@+id/text1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13dp" android:text="آزمون اول"/>
+    <ScrollView android:layout_width="match_parent" android:layout_height="396dp" android:layout_below="@+id/include2" android:layout_alignParentStart="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:orientation="vertical" android:background="@mipmap/background1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="20dp" android:textStyle="normal" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25dp" android:text="1-در پشت تقاطع جاده و راه آهن راننده چه هنگام مجاز به عبور است؟" android:translationX="-10dp"/>
+                <CheckBox android:id="@+id/checkALEF1" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="الف)هنگامی که قطار عبور می کند"/>
+                <CheckBox android:id="@+id/checkB1" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ب) زمانی که چراغ محل همچنین روشن بماند"/>
+                <CheckBox android:id="@+id/checkjim1" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ج) موارد یک و دو صحیح است "/>
+                <CheckBox android:id="@+id/checkD1" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="د)هنگامی که چراغ محل تقاطع خاموش شود"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@mipmap/background1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="20dp" android:textStyle="normal" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25dp" android:text="2-حداکثر میزان سرعت در جاده های فرعی برای انواع وسایل نقلیه در روز ... کیلومتر و در شب ... کیلومتر در ساعت می باشد." android:translationX="-10dp"/>
+                <CheckBox android:id="@+id/checkALEF2" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="الف)65-75"/>
+                <CheckBox android:id="@+id/checkB2" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ب)85-95"/>
+                <CheckBox android:id="@+id/checkJim2" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ج)75-85"/>
+                <CheckBox android:id="@+id/checkD2" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="د)55-65"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@mipmap/background1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="20dp" android:textStyle="normal" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25dp" android:text="3-در چه فاصله ای از ورودی یا خروجی مراکز آتش نشانی، پلیس و بیمارستانها توقف وسایل نقلیه ممنوع است؟" android:translationX="-10dp"/>
+                <CheckBox android:id="@+id/checkALEF3" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="الف)5 متری"/>
+                <CheckBox android:id="@+id/checkB3" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ب)15 متری"/>
+                <CheckBox android:id="@+id/checkJ3" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ج)30 متری"/>
+                <CheckBox android:id="@+id/checkD3" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="د)محدودیت ندارد"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@mipmap/background1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="20dp" android:textStyle="normal" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25dp" android:text="4-صحیح ترین روش ترمز کردن در خودروهای فاقد ترمز ABS چیست؟ " android:translationX="-10dp"/>
+                <CheckBox android:id="@+id/checkALEF4" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="الف)پدال ترمز را بشدت فشار داده و سپس فشار وارده را کمتر نموده"/>
+                <CheckBox android:id="@+id/checkB4" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ب)ابتدا پدال را به آرامی فشار داده و بتدریج فشار را افزایش داد"/>
+                <CheckBox android:id="@+id/checkJ4" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ج)بطور پی در پی پدال ترمز را فشار داده و رها نمود"/>
+                <CheckBox android:id="@+id/checkD4" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="د) همزمان با فشار دادن پدال ترمز ترمز دستی را نیز کشید"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@mipmap/background1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="19dp" android:textStyle="normal" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25dp" android:text="5-کدامیک از موارد زیر علت اصلی تصادف با اتومبیل جلویی است؟" android:translationX="-10dp"/>
+                <CheckBox android:id="@+id/checkALEF5" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="الف)عدم توجه به راه و نزدیک شدن بیش از حد به اتومبیل جلویی"/>
+                <CheckBox android:id="@+id/checkB5" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ب)سرعت غیرمجاز"/>
+                <CheckBox android:id="@+id/checkJ5" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ج)عبور عابر پیاده در مناطق شهری و شلوغ"/>
+                <CheckBox android:id="@+id/checkD5" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="د)وجود ترافیک سنگین در راهها"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@mipmap/background1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="20dp" android:textStyle="normal" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25dp" android:text="6-اگر بعد از آزمایش چشم متوجه شدید که نیاز به عینک دارید چه موقع باید از آن استفاده کنید؟" android:translationX="-10dp"/>
+                <CheckBox android:id="@+id/checkALEF6" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="الف) فقط در موقع آلودگی هوا"/>
+                <CheckBox android:id="@+id/checkB6" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ب)در زمانی که احساس می کنید لازم است"/>
+                <CheckBox android:id="@+id/checkJ6" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ج) در تمام اوقات رانندگی"/>
+                <CheckBox android:id="@+id/checkD6" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="د) فقط در نور کم و شب ها"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@mipmap/background1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="20dp" android:textStyle="normal" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25dp" android:text="7-اگر اتومبیل شما در محل گذرگاه قطار خاموش شود و نتوانید آن را روشن کنید و همزمان نیز بوق هشدار قطار به صدا درآید چه کاری باید انجام دهید؟" android:translationX="-10dp"/>
+                <CheckBox android:id="@+id/checkALEF7" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="الف) از اتومبیل خارج شده و از تقاطع دور می شوید"/>
+                <CheckBox android:id="@+id/checkB7" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ب)بر روی خط آهن جهت هشدار به سوزن بان شروع به دویدن می کنید"/>
+                <CheckBox android:id="@+id/checkJ7" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ج) سعی می کنید موتور اتومبیل را روشن کنید"/>
+                <CheckBox android:id="@+id/checkD7" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="د) اتومبیل را حرکت داده و از محل تقاطع دور کنید"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@mipmap/background1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="20dp" android:textStyle="normal" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25dp" android:text="8-چرا باید در هنگام رانندگی توجه به جلو و اطراف داشته باشیم؟" android:translationX="-10dp"/>
+                <CheckBox android:id="@+id/checkALEF8" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="الف)در انتخاب مسیر دچار اشتباه نشویم"/>
+                <CheckBox android:id="@+id/checkB8" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ب)متوجه حرکات سایر رانندگان باشیم"/>
+                <CheckBox android:id="@+id/checkJ8" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ج)خطرات احتمالی را پیش بینی کرده و زمان بیشتری برای واکنش داشته باشیم"/>
+                <CheckBox android:id="@+id/checkD8" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="د) قادر باشیم علائم را ببینیم"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@mipmap/background1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="19dp" android:textStyle="normal" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25dp" android:text="9-اگر به هنگام رانندگی در آزاد راه تایر خودرو پنچر شود چه باید کرد؟" android:translationX="-10dp"/>
+                <CheckBox android:id="@+id/checkALEF9" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="الف)باید در همان محل توقف کرد"/>
+                <CheckBox android:id="@+id/checkB9" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ب)باید در خط اضطراری توقف کرد"/>
+                <CheckBox android:id="@+id/checkJ9" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ج)می توان بین خطوط عبوری آزادراه توقف کرد"/>
+                <CheckBox android:id="@+id/checkD9" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="د)موارد الف و ج صحیح است"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@mipmap/background1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="20dp" android:textStyle="normal" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25dp" android:text="10-در محل توقف کنار خیابان حق تقدم عبور با وسیله نقلیه ای است که ..." android:translationX="-10dp"/>
+                <CheckBox android:id="@+id/checkALEF10" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="الف)اتومبیلی که مستقیم حرکت می کند"/>
+                <CheckBox android:id="@+id/checkB10" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ب) اتومبیلی ضمن حرکت با دنده عقب مشغول پارک کردن است"/>
+                <CheckBox android:id="@+id/checkJ10" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ج)هر دو"/>
+                <CheckBox android:id="@+id/checkD10" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="د)هیچکدام"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@mipmap/background1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="20dp" android:textStyle="normal" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25dp" android:text="11-کدام مورد از انواع آلودگی سهم زیادی از آلودگی شهری را تشکیل می دهد؟" android:translationX="-10dp"/>
+                <CheckBox android:id="@+id/checkALEF11" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="الف)آلودگی صوتی"/>
+                <CheckBox android:id="@+id/checkB11" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ب)آلودگی هوا ناشی از وسایل موتوری"/>
+                <CheckBox android:id="@+id/checkJ11" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ج)آلودگی محیط زیستی"/>
+                <CheckBox android:id="@+id/checkd11" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="د)موارد الف و ب صحیح می باشد"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@mipmap/background1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="19dp" android:textStyle="normal" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25dp" android:text="12-متداول ترین نوع پارک در شهرها کدام مورد می باشد؟" android:translationX="-10dp"/>
+                <CheckBox android:id="@+id/checkALEF12" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="الف)پارک دوبل"/>
+                <CheckBox android:id="@+id/checkB12" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ب)پارک بغل"/>
+                <CheckBox android:id="@+id/checkJ12" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ج)پارک پل"/>
+                <CheckBox android:id="@+id/checkD12" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="د)هیچکدام"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@mipmap/background1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="20dp" android:textStyle="normal" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25dp" android:text="13-هنگام پارک کردن در سرازیری که دارای جدول می باشد فرمان را باید به کدام سمت چرخاند؟" android:translationX="-10dp"/>
+                <CheckBox android:id="@+id/checkALEF13" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="الف)مستقیم"/>
+                <CheckBox android:id="@+id/checkB13" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ب)چپ"/>
+                <CheckBox android:id="@+id/checkJ13" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ج)راست"/>
+                <CheckBox android:id="@+id/checkD13" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="د)هیچکدام"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@mipmap/background1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="20dp" android:textStyle="normal" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25dp" android:text="14-حداقل از چه فاصله در بزرگراه باید راهنما زد؟" android:translationX="-10dp"/>
+                <CheckBox android:id="@+id/checkALEF14" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="الف)50"/>
+                <CheckBox android:id="@+id/checkB14" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ب)70"/>
+                <CheckBox android:id="@+id/checkJ14" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ج)100"/>
+                <CheckBox android:id="@+id/checkD14" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="د)150"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@mipmap/background1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="20dp" android:textStyle="normal" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25dp" android:text="15-به هنگام گردش به راست کدام یک از موارد زیر را باید رعایت کرد؟" android:translationX="-10dp"/>
+                <CheckBox android:id="@+id/checkALEF15" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="الف)علامت دادن با چراغ راهنمای سمت راست از فاصله 100 متری"/>
+                <CheckBox android:id="@+id/checkB15" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ب)توجه به جریان ترافیک و عابرین"/>
+                <CheckBox android:id="@+id/checkJ15" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ج)توجه به دوچرخه سوارها و موتور سوارها میان خودرو و جدول"/>
+                <CheckBox android:id="@+id/checkD15" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="د)تمام موارد"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@mipmap/background1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="19dp" android:textStyle="normal" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25dp" android:text="16-در چه مواقعی نمی توانید از چراغ هشدار دهنده خطر استفاده کنید؟" android:translationX="-10dp"/>
+                <CheckBox android:id="@+id/checkALEF16" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="الف)زمانی که خودرو بکسل شده"/>
+                <CheckBox android:id="@+id/checkB16" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ب)زمانی که بصورت دوبله پارک شده"/>
+                <CheckBox android:id="@+id/checkJ16" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ج)موارد الف و ب صحیح است"/>
+                <CheckBox android:id="@+id/checkD16" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="د)هیچکدام"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@mipmap/background1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="20dp" android:textStyle="normal" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25dp" android:text="17-به هنگام سبقت گرفتن از کدام یک از موارد زیر باید فضای بیشتری را برای وسیله نقلیه در نظر گرفت؟" android:translationX="-10dp"/>
+                <CheckBox android:id="@+id/checkALEF17" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="الف)موتور سیکلت"/>
+                <CheckBox android:id="@+id/checkB17" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ب)دوچرخه"/>
+                <CheckBox android:id="@+id/checkJ17" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ج)تراکتور"/>
+                <CheckBox android:id="@+id/checkD17" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="د)موارد الف و ب"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@mipmap/background1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="20dp" android:textStyle="normal" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25dp" android:text="18-هنگام ورود به میادین حق تقدم با وسیله نقلیه ای است که ..." android:translationX="-10dp"/>
+                <CheckBox android:id="@+id/checkALEF18" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="الف)در حال ورود به میدان است"/>
+                <CheckBox android:id="@+id/checkB18" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ب)در سمت راست وسیله نقلیه قرار دارد"/>
+                <CheckBox android:id="@+id/checkJ18" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ج) درون میدان در حال حرکت است"/>
+                <CheckBox android:id="@+id/checkD18" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="د)در حال عبور مستقیم است"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@mipmap/background1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="19dp" android:textStyle="normal" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25dp" android:text="19-غالب میخ های زرد رنگ (چشم گربه) در چه محل هایی نصب می شود؟" android:translationX="-10dp"/>
+                <CheckBox android:id="@+id/checkALEF19" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="الف)در مسیرهای ورودی و خروجی آزاد راه ها"/>
+                <CheckBox android:id="@+id/checkB19" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ب)در باند کاهش سرعت"/>
+                <CheckBox android:id="@+id/checkJ19" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ج)در باند افزایش سرعت"/>
+                <CheckBox android:id="@+id/checkD19" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="د)در مسیر رفت و برگشت جاده ها و در سمت چپ مسیر"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@mipmap/background1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="20dp" android:textStyle="normal" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25dp" android:text="20-در مواقع طوفانی و وزش باد شدید کدام یک از موارد زیر باید بیش از حد مراقب باشید؟" android:translationX="-10dp"/>
+                <CheckBox android:id="@+id/checkALEF20" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="الف)به هنگام عبور از کنار دوچرخه و موتورسواران"/>
+                <CheckBox android:id="@+id/checkB20" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ب)به هنگام استفاده از ترمزها"/>
+                <CheckBox android:id="@+id/checkJ20" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ج)به هنگام سبقت گرفتن از خودروهای طویل"/>
+                <CheckBox android:id="@+id/checkD20" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="د)به هنگام عبور از پیچ ها و سربالایی ها"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@mipmap/background1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="19dp" android:textStyle="normal" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25dp" android:text="21-حرکت با دنده خلاص در سرپایینی چه خطراتی را در پی خواهد داشت؟" android:translationX="-10dp"/>
+                <CheckBox android:id="@+id/checkALEF21" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="الف)موجب سرعت گرفتن خودرو شده و دنده سخت جلو می رود"/>
+                <CheckBox android:id="@+id/checkB21" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ب)ترمز گرفتن و هدایت خودرو مشکل می شود"/>
+                <CheckBox android:id="@+id/checkJ21" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ج)سیستم کلاج آسیب می بیند"/>
+                <CheckBox android:id="@+id/checkD21" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="د)موارد الف و ب"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@mipmap/background1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="19dp" android:textStyle="normal" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25dp" android:text="22-سبقت گرفتن در سر پیچ های تند و سربالایی ها به چه علت ممنوع می باشد؟" android:translationX="-10dp"/>
+                <CheckBox android:id="@+id/checkALEF22" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="الف)نامحدود بودن میدان دید راننده"/>
+                <CheckBox android:id="@+id/checkB22" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ب) کم بودن میدان دید راننده"/>
+                <CheckBox android:id="@+id/checkJ22" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ج) اختلال در ترافیک"/>
+                <CheckBox android:id="@+id/checkD22" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="د)عدم کشش خودرو"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@mipmap/background1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="20dp" android:textStyle="normal" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25dp" android:text="23-مفهوم این شکل چیست؟" android:translationX="-10dp"/>
+                <CheckBox android:id="@+id/checkALEF23" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="الف)توقف مطلقا ممنوع"/>
+                <CheckBox android:id="@+id/checkB23" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ب)توقف ممنوع"/>
+                <CheckBox android:id="@+id/checkJ23" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ج)ایستادن ممنوع"/>
+                <CheckBox android:id="@+id/checkD23" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="د) توقف در روزهای زوج هفته ممنوع"/>
+                <ImageView android:layout_width="70dp" android:layout_height="70dp" android:src="@mipmap/tabloo1" android:translationX="-50dp"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@mipmap/background1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="20dp" android:textStyle="normal" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25dp" android:text="24-مفهوم این شکل چیست؟" android:translationX="-10dp"/>
+                <CheckBox android:id="@+id/checkALEF24" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="الف)جریان همگرا"/>
+                <CheckBox android:id="@+id/checkB24" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ب)تقاطع فرعی با اصلی در قوس"/>
+                <CheckBox android:id="@+id/checkJ24" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ج)پایان جدا کننده"/>
+                <CheckBox android:id="@+id/checkD24" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="د) هدایت مسیر با جدا کننده"/>
+                <ImageView android:layout_width="70dp" android:layout_height="70dp" android:src="@mipmap/tabloo2" android:translationX="-50dp"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@mipmap/background1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="20dp" android:textStyle="normal" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25dp" android:text="25-مفهوم این شکل چیست؟" android:translationX="-10dp"/>
+                <CheckBox android:id="@+id/checkALEF25" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="الف)سبقت ممنوع"/>
+                <CheckBox android:id="@+id/checkB25" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ب)بوق زدن ممنوع"/>
+                <CheckBox android:id="@+id/checkJ25" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ج)خیابان یک طرفه"/>
+                <CheckBox android:id="@+id/checkD25" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="د)حق تقدم با وسیله نقلیه مقابل است"/>
+                <ImageView android:layout_width="70dp" android:layout_height="70dp" android:src="@mipmap/tabloo3" android:translationX="-50dp"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@mipmap/background1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="20dp" android:textStyle="normal" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25dp" android:text="26-مفهوم این شکل چیست؟" android:translationX="-10dp"/>
+                <CheckBox android:id="@+id/checkALEF26" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="الف)پیچ های پی در پی"/>
+                <CheckBox android:id="@+id/checkB26" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ب)پیچ به راست"/>
+                <CheckBox android:id="@+id/checkJ26" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ج)موارد الف و ب"/>
+                <CheckBox android:id="@+id/checkD26" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="د)هیچکدام"/>
+                <ImageView android:layout_width="70dp" android:layout_height="70dp" android:src="@mipmap/tabloo4" android:translationX="-50dp"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@mipmap/background1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="20dp" android:textStyle="normal" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25dp" android:text="27-کدام تابلو زیر به معنی عبور اطفال است؟" android:translationX="-10dp"/>
+                <CheckBox android:id="@+id/checkALEF27" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="الف)"/>
+                <CheckBox android:id="@+id/checkB27" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ب)"/>
+                <CheckBox android:id="@+id/checkJ27" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ج)"/>
+                <CheckBox android:id="@+id/checkD27" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="د)"/>
+                <ImageView android:layout_width="100dp" android:layout_height="100dp" android:src="@mipmap/tabloo5" android:translationX="-50dp"/>
+                <ImageView android:layout_width="100dp" android:layout_height="100dp" android:src="@mipmap/tabloo6" android:translationX="-50dp"/>
+                <ImageView android:layout_width="100dp" android:layout_height="100dp" android:src="@mipmap/tabloo7" android:translationX="-50dp"/>
+                <ImageView android:layout_width="100dp" android:layout_height="100dp" android:src="@mipmap/tabloo8" android:translationX="-50dp"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@mipmap/background1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="20dp" android:textStyle="normal" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25dp" android:text="28-مفهوم این شکل چیست؟" android:translationX="-10dp"/>
+                <CheckBox android:id="@+id/checkALEF28" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="الف)خط توقف دوبله منقطع"/>
+                <CheckBox android:id="@+id/checkB28" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ب)خط شطرنجی"/>
+                <CheckBox android:id="@+id/checkJ28" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ج)خط ممتد ایست"/>
+                <CheckBox android:id="@+id/checkD28" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="د)خط عابر پیاده"/>
+                <ImageView android:layout_width="70dp" android:layout_height="70dp" android:src="@mipmap/tabloo9" android:translationX="-50dp"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@mipmap/background1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="19dp" android:textStyle="normal" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25dp" android:text="29-کدام یک از اشکال زیر به معنای ‘رانندگان وسایل نقلیه در حال عبور از پشت وی توقف  نمایند’ می باشد؟" android:translationX="-10dp"/>
+                <CheckBox android:id="@+id/checkALEF29" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="الف)"/>
+                <CheckBox android:id="@+id/checkB29" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ب)"/>
+                <CheckBox android:id="@+id/checkJ29" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ج)"/>
+                <CheckBox android:id="@+id/checkD29" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="د)"/>
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/tabloo10"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@mipmap/background1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="20dp" android:textStyle="normal" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25dp" android:text="30-در این شکل حق تقدم با کدام است؟" android:translationX="-10dp"/>
+                <CheckBox android:id="@+id/checkALEF30" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="الف)1-2-3"/>
+                <CheckBox android:id="@+id/checkB30" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ب)3-1-2"/>
+                <CheckBox android:id="@+id/checkJ30" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ج)3-2-1"/>
+                <CheckBox android:id="@+id/checkD30" android:background="?attr/colorButtonNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="د)2-1-3"/>
+                <ImageView android:layout_width="120dp" android:layout_height="120dp" android:src="@mipmap/tabloo11" android:translationX="-50dp"/>
+            </LinearLayout>
+            <Button android:textColor="#ff89e661" android:id="@+id/clickazmoncheck1" android:layout_width="145dp" android:layout_height="45dp" android:layout_marginTop="7dp" android:text="ثبت و اعلام شدن نتیجه"/>
+            <Button android:id="@+id/clickazmonchecktrue" android:layout_width="145dp" android:layout_height="45dp" android:layout_marginTop="7dp" android:text="مشخص شدن جواب سوالات"/>
+            <Button android:textColor="#fffb9797" android:id="@+id/clickazmoncheckfalse" android:layout_width="145dp" android:layout_height="45dp" android:layout_marginTop="7dp" android:text="پنهان شدن جواب سوالات"/>
+        </LinearLayout>
+    </ScrollView>
+    <ProgressBar android:id="@+id/progressBar2" android:visibility="gone" android:layout_width="50dp" android:layout_height="50dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:translationY="-42dp"/>
+</RelativeLayout>
